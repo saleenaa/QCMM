@@ -1,0 +1,106 @@
+
+<html lang="en">
+<head>
+  <title>Quiz</title>
+  <link rel = "stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+<body>
+  <form id="quiz-form">
+    <ol>
+      <li class="question-item">
+        <div class="question">Est ce que M.Dupont est gentil? </div>
+        <ol class="answers">
+          <li class="answer">
+            <label> 
+              <input type="radio" name="answer-1" value="false">
+              <code class="option">non</code>
+            </label>
+          </li>
+          <li class="answer">
+            <label>
+              <input type="radio" name="answer-1" value="false">
+              <code class="option">oui</code>
+            </label>
+          </li>
+          <li class="answer">
+            <label>
+              <input type="radio" name="answer-1" value="false">
+              <code class="option">peut être</code>
+            </label>
+          </li>
+          <li class="answer">
+            <label>
+              <input type="radio" name="answer-1" value="true">
+
+              <code class="option">évidemment</code>
+            </label>
+          </li>
+        </ol>
+      </li>
+      <li class="question-item">
+        <div class="question">Le cours de web dynamique est t il intéressant?</div>
+        <ol class="answers">
+          <li class="answer">
+            <label>
+              <input type="radio" name="answer-2" value="false">
+              pas de réponse
+            </label>
+          </li>
+          <li class="answer">
+            <label>
+              <input type="radio" name="answer-2" value="false">
+              je pense pas
+            </label>
+          </li>
+          <li class="answer">
+            <label>
+              <input type="radio" name="answer-2" value="true">
+              ouiiii
+            </label>
+          </li>
+          <li class="answer">
+            <label>
+              <input type="radio" name="answer-2" value="false">
+              non
+            </label>
+          </li>
+        </ol>
+      </li>
+      <li class="question-item">
+        <div class="question">Les notes reflètent-elles l'intelligence?</div>
+        <ol class="answers">
+          <li class="answer">
+            <label>
+              <input type="radio" name="answer-3" value="true">
+              <code class="option">pas du tout</code>
+            </label>
+          </li>
+          <li class="answer">
+            <label>
+              <input type="radio" name="answer-3" value="false">
+              <code class="option">oui</code>
+            </label>
+          </li>
+          <li class="answer">
+            <label>
+              <input type="radio" name="answer-3" value="false">
+              <code class="option">cela dépends</code>
+            </label>
+          </li>
+          <li class="answer">
+            <label>
+              <input type="radio" name="answer-3" value="false">
+              <code class="option">j'ai rienà faire de cela</code>
+            </label>
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <div id="alert" style="display: none;">
+      <p>Félicitations ! Vous avez répondu correctement à toutes les questions !</p>
+    </div>  
+    <button type="submit">Check</button>
+  </form>
+</body>
+</html>
